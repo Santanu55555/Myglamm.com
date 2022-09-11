@@ -12,7 +12,7 @@ const {type}=useParams();
   console.log(data);
   console.log(type);
   useEffect(() => {
-    dispatch(getdata(type));
+    (getdata(type));
   }, []);
 
   return (
